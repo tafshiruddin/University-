@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Site</title>
+     <!-- Add your favicon link below -->
+     <link rel="shortcut icon" href="/img/favicon/blog.png" type="image/x-icon">
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/reponsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Fira+Sans&family=Montserrat&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/fc1de5fd5d.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="/img/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">C0NTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+     <h1>Our Certificate & Online Programs For 2024</h1>
+    </section>
+
+    <!-- blog page content -->
+
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="/img/certificate.jpg" alt="">
+          <h2>Our Certificate & Online Programs For 2024</h2>
+          <p>"Our Certificate & Online Programs For" is a comprehensive and flexible educational initiative designed to cater to the diverse needs of individuals seeking specialized knowledge and skills in various fields. This initiative recognizes the evolving nature of education and the demand for accessible learning opportunities, offering a range of certificate and online programs to meet the unique requirements of learners worldwide.</p>
+          <br>
+          <p>The certificate programs are crafted to provide targeted expertise in specific areas, allowing participants to acquire valuable skills and credentials in a relatively short period. These programs are designed with a focus on practical, real-world applications, ensuring that learners can directly apply their knowledge in professional settings.</p>
+          <br>
+          <p>The online programs, on the other hand, embrace the convenience and accessibility of digital learning. Through cutting-edge technology and interactive learning platforms, participants can engage in coursework, collaborate with peers, and access resources from anywhere in the world. The flexibility of online programs accommodates various schedules, making education more accessible to those with diverse commitments and lifestyles.
+          </p>
+          <br>
+          <p>"Our Certificate & Online Programs For" cover a broad spectrum of disciplines, ranging from business and technology to arts and sciences. Whether individuals are looking to upskill, pivot in their careers, or deepen their understanding of a specific subject, these programs provide a structured and supportive learning environment.</p>
+          <br>
+          <p>The instructors and facilitators associated with these programs are experts in their respective fields, ensuring that participants receive high-quality education and mentorship. The curriculum is regularly updated to align with industry trends and demands, keeping learners at the forefront of knowledge in their chosen fields.</p>
+          <br>
+          <p>Moreover, the programs prioritize a learner-centric approach, recognizing the importance of personalized education. Participants receive guidance, feedback, and support to foster their academic and professional growth, creating a learning experience that is both enriching and rewarding.</p>
+          <br>
+          <p>In summary, "Our Certificate & Online Programs For" represent a forward-thinking approach to education, offering flexible, relevant, and high-quality learning opportunities for individuals seeking to enhance their skills and advance their careers in the ever-changing landscape of the modern world.</p>
+          <div class="comment-box">
+            <h3>Leave A Comment</h3>
+            <form class="comment-form">
+              <input type="text" placeholder="Enter Name">
+              <input type="email" placeholder="Enter Email">
+              <textarea rows="5" placeholder="Your Comment"></textarea>
+              <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+          </div>
+
+
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Business Analytics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Data Science</span>
+            <span>28</span>
+          </div>
+          <div>
+            <span>Maching Learning</span>
+            <span>15</span>
+          </div>
+          <div>
+            <span>Computer Science</span>
+            <span>34</span>
+          </div>
+          <div>
+            <span>AutoCAD</span>
+            <span>42</span>
+          </div>
+          <div>
+            <span>Journalism</span>
+            <span>22</span>
+          </div>
+          <div>
+            <span>commerce</span>
+            <span>30</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- footer -->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>📱 Connect With Us Across Platforms: Explore the University Experience!</p>
+      <div class="icons">
+        <i class="fa fa-facebook" ></i> 
+        <i class="fa fa-instagram" ></i> 
+        <i class="fa fa-twitter" ></i> 
+        <i class="fa fa-linkedin" ></i> 
+      </div>
+      <p>Made With <i class="fa fa-heart-o" ></i> by Tafshir Uddin </p>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- javascript for toggle menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showmenu(){
+        navLinks.style.right = "0"
+      }
+
+      function hidemenu(){
+        navLinks.style.right = "-200px"
+      }
+    </script>
+  </body>
+</html>

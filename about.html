@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Site</title>
+     <!-- Add your favicon link below -->
+     <link rel="shortcut icon" href="/img/favicon/about.png" type="image/x-icon">
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/reponsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Fira+Sans&family=Montserrat&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/fc1de5fd5d.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="/img/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">C0NTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+     <h1>About Us</h1>
+    </section>
+
+    <!-- about us content -->
+
+    <section class="about-us">
+      <div class="row">
+      <div class="about-col">
+        <h1>We Are The World's Largest University</h1>
+        <p>"We Are The World's Largest University" is a visionary educational institution that stands at the forefront of global learning and knowledge dissemination. With a commitment to excellence, innovation, and inclusivity, this institution has earned its title as the largest university in the world, transcending geographical boundaries and cultural differences to create a truly global community of learners.</p>
+        <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+      </div> 
+      <div class="about-col">
+        <img src="/img/about.jpg">
+      </div> 
+      </div>
+    </section>
+    
+    <!-- footer -->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>📱 Connect With Us Across Platforms: Explore the University Experience!</p>
+      <div class="icons">
+        <i class="fa fa-facebook" ></i> 
+        <i class="fa fa-instagram" ></i> 
+        <i class="fa fa-twitter" ></i> 
+        <i class="fa fa-linkedin" ></i> 
+      </div>
+      <p>Made With <i class="fa fa-heart-o" ></i> by Tafshir Uddin </p>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- javascript for toggle menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showmenu(){
+        navLinks.style.right = "0"
+      }
+
+      function hidemenu(){
+        navLinks.style.right = "-200px"
+      }
+    </script>
+  </body>
+</html>
